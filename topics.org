@@ -1,0 +1,61 @@
+
+* topics to cover
+** main ideas
+*** gme was stagnating under old leadership
+*** gme has been driven down by short sellers
+*** gme bought back a chunk of their shares
+*** very small pool of shares available
+
+** article roundup
+*** forbes article
+https://www.forbes.com/sites/georgecalhoun/2021/03/05/gamestopgamestonk-has-nothing-to-do-with-the-madness-of-crowds/?sh=6382a2af25d0
+
+I don't mind being called a hyper-rational predator. :)
+
+It's sad/funny that they don't mention the "cornered" (true) and "defenseless" (clearly false) counterparty is also a hyper-rational predator trying to run GameStop out of business.
+
+Probably the biggest insight I got from this article is that gamma squeeze is a new concept. That gives an alternate explanation about why so many talking heads (Charlie Munger, Suze Orman, the motley fool team, maybe even Cramer (if we're feeling generous) etc.) are knocking this trade:
+
+Some of these people have been giving the same answers for years and just plain don't realize they're encountering something new here.
+
+This is a new situation in the world, and a lot of us have the advantage of not having to unlearn a lot of old rules...
+
+
+** purpose
+*** writing to learn
+**** buffet on writing down why you make a trade
+**** analyze my own thinking
+**** put things in my own words to make sense
+*** this is something new
+*** version controlled site
+
+* who owns GME?
+** short vs gamma squeeze
+** brokers/features
+** whales / big players
+*** ryan cohen
+*** melvin capital
+*** citadel
+** glossary
+*** "short ladder attack"
+*** AH - after hours
+** SEC filings
+** blog with latest news (reddit links)
+** what-if scenarios (speculation)
+*** s&p requirements https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/sp-500-index/
+** "short and distort"
+** gamestop analysis
+*** recent changes
+*** key players
+** latest chart
+** confirmation bias
+** non-gme-related
+*** my $100 strategy (why i still use robinhood)
+** best reddit posts of the week
+** analyst ratings
+
+
+
+* good articles
+** forbes
+* "fud" articles
