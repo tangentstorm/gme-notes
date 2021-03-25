@@ -1,0 +1,238 @@
+#+title: a bayesian sanity check, or how to be a hyper rational predator ($GME)
+
+* part 0: sanity check
+- recently i've had reason to question my own sanity.
+
+- i'm usually a pretty conservative long-term investor.
+  - I keep most of my money in index funds.
+  - Then there's a tiny handful of tech stocks
+    where I've put maybe one or two weeks pay,
+  - And then I have a rule where I can buy anything else
+    I want, but I never put in more than $100.
+
+- But recently I've made what's for me a rather large investment in GameStop.
+- Not large enough to really change my life if I lost it,
+  but enough to make a difference if it goes up.
+
+- I'm not trying to convince anyone else to buy Gamestop.
+- Obviously, that would be in my interest, but
+  - A, not a financial advisor
+  - B, it's a pretty volatile stock, and if it turns out I'm wrong, I don't want that on my conscience.
+
+- I'll happily admit that when it comes to deciphering the stock market,
+  I'm a smooth-brained, crayon-eating ape, and nobody should listen to me ever.
+
+- Now, pretty much all the mainstream financial advisors are saying that nobody should be buying GameStop.
+  - [show motley fool]
+
+- So almost all the information I've gathered has come from community discussions on reddit.
+
+  - you might have heard of wallstreetbets.
+  - That's kinda where this started.
+  - I spend most of my attention on /r/GME
+     it's more focused, although there's still a lot of noise.
+
+- But if you dig a little bit, there's a lot of great research but together by a lot of individual people.
+- Many of them college kids because they seem to have the time to do the research, but there are people from all over.
+
+- For legal purposes, almost every one of them admits to being a crayon eating ape.
+- But okay. On the one hand:
+
+   APES TOGETHER STRONG
+
+- But on the other hand, when everyone outside the ape colony says stay away from this stock, and everyone inside says it's going to the moon, how do I know I'm not just being sucked into some kind of self-organizing internet cult?
+
+Warren Bufett:
+
+  fearful when others are greedy, and greedy when others are fearful
+
+Probably the biggest lesson I've learned here is if you want to do better than buy and hold then at some point you're either going to have to get lucky or you're going to have to make a hard bet against the market.
+
+But it's not good enough to face all that fear when everyone's telling you you're wrong, and just plow ahead on the strength of your conviction.
+
+You have to also be right.
+
+* part 1 : bayesian sanity check
+I know that a lot of things affect my brain in ways that aren't rational.
+
+I know if I see someone saying they're never going to sell for more than some price, then that price is going to sit there in my brain.
+
+It's called anchoring bias, and it's just a feature of the human brain.
+
+For most things, it doesn't really matter if our beliefs are slightly off.
+
+But if I'm putting money on the line that could affect my future, I want to clear that bias out.
+
+I don't know how to do that, but what I do know is how to take a set of statements and mathematically describe how each fact ought to increase or decrease my belief.
+
+There's a tool called Bayesian Inference that makes this process explicit, and you can do it for yourself on a spreadsheet.
+
+So that's what this is: a Bayesian Sanity check.
+
+The real point of this video is to talk about how this spreadsheet works,
+but the motivating example is going to be to work through some of
+these I've acquired about gamestop.
+
+So before we dive into the math let's very quickly go over what exactly the situation is with gamestop.
+
+
+* part 1: the short squeeze recap
+** what is gamestop
+- gamestop is a retail company that sells video games.
+- sell new video games
+- also buy and sell used video games.
+- they also have a membership program with a cool magazine
+- and they sell merchandise related to games and comics and whatnot.
+
+** but they've been suffering the past couple years
+- most video game consoles let you buy games online
+- management maybe wasn't doing the best job to keep up
+- covid hit
+
+** the stock was suffering more than it should have
+- gamestock got pummeled by short sellers.
+
+** short selling
+- whenever you have a huge short interest, you can have a short squeeze
+
+** short squeeze conditions
+- while large short interest AND real shares are difficult to buy:
+-   if price goes up
+-      short sellers are pressured to buy
+-   if buying pressure increases:
+-      price goes up
+
+It's a loop that forces the price up, and it only stops when real shares become easy to buy.
+
+
+** the catalyst
+- it wasn't really one event, but a lot of things coming together
+  - various activist investors
+  - keith gill posting to wsb
+  - share buyback
+  - ryan cohen
+- so all the conditions were met.
+  - massive short interest
+  - zero float
+
+- all we needed was a catalyst
+  - exact dynamics are going to be studied for years in the history books
+  - wsb really like options
+  - wsb started jumping on board
+  - in early january, there was a gamma squeeze.
+    - tiny bit like a short squeeze
+    - has to do with the options market.
+    - not really important
+- this was the catalyst
+- AND THEN...
+
+*** (gamma squeeze slide)
+#+begin_src python
+
+# *extremely simplified* gamma squeeze
+while market is open:
+  if many expiring call options are near the money (and not balanced by puts):
+     Market maker buys underlying asset to hedge against being called.
+     Buying pushes the price of underlying asset up.
+     This brings more expiring options near the money.
+
+#+end_src
+
+So it loops as long as there are a lot of expiring assets.
+
+
+** the snap
+- then robinhood and others shut down trading
+- and the stock dropped to $40
+- this lead to a series of congressional hearings (so far 2 of 3 have happened)
+*** robinhood stops buying
+
+
+panic ensues
+stock drops to $40
+stock impossible to buy
+ammend loop: FOR THE SHORT SELLERS
+
+*** the mainstream story is that there was a short squeeze, and it's over.
+- reddit mania
+- plotkin testimony to congress
+: https://www.c-span.org/video/?508545-1/gamestop-hearing-part-1&event=508545&playEvent
+: melvin closed out all of its positions in gamestop days before. 00:27:09
+: https://www.c-span.org/video/?c4946901/user-clip-melvins-pants-fire
+
+*** not everyone believes the short squeeze actually happened
+- ex: https://isthesqueezesquoze.com/
+- forbes article
+
+
+
+* part 3: rise of the apes
+- lots of new interest
+- wsb had millions of new accounts
+- wsbnew and /r/gme forked off
+
+** firehose [ visual: headlines and screeching apes ]
+show the list but don't cover each one right now
+- gamestop
+- dfv
+- motley fool conspiracy
+- ryan cohen
+- marketwatch time machine
+- failures to deliver
+- short interest
+- etfs being shorted
+- testimony at second hearing
+- message in gamestop 10k
+- billboards
+- dtcc rule changes
+- hype/feelings
+- conspiracy theories
+- institutions own more than the float
+- confirmation bias
+- my new ceiling is $x
+
+* part 4: an extraordinary claim
+- all of this is overwhelming
+- go back to the short diagram
+- the idea that a massive short position still exists is an extraordinary claim
+
+- i want to be betting on hard evidence
+  - not speculation
+  - not social proof
+
+Going to make a mathematical formula, and a lot of it's subjective.
+But it's also explicit, so I can go back and edit later.
+
+* part 5: bayesian inference for the win
+- the syntax
+- p(a)
+- scaling factor p(b|a)/p(b)
+
+* classifying evidence
+** not evidence
+- ryan cohen
+- dfv
+** weak evidence
+"TMF is a shill"
+** arguments where p(b) is possible
+- high failures to deliver
+** arguments where p(b|~a) is easier to reason about
+- dtcc rule 801
+** uncertainty in arguments (how much do you believe the fact actually happened?)
+my scaling function is probably not a good one.
+the important thing is that you scale the scalar.
+scale the distance from 1.
+
+* results
+- you have to narrow your focus to something you can state as a probability
+- the final spreadsheet should be a work in progress
+- written history of how you came to believe what you believe
+- change that history
+- dangers:
+  - different beliefs based on size (of squeeze, of ftds, etc)
+  - missing evidence (unknown unknowns)
+  - ideas change over time. maybe have another scaling factor that sets this to 0 if you revise your belief
+  - bad judgements
+  - my scaling function here might be completely bogus
+- you should gather your own facts and plug your own numbers in
+- not advice
